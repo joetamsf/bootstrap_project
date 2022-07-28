@@ -1,0 +1,149 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1" />
+    <title>What the Cats</title>
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="test.css" />
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">What the Cats!</h1>
+                <h3 class="display-5">In Cats we trust!</h3>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">Your location: </li>
+                    <li class="breadcrumb-item">Home</li>
+                    <li class="breadcrumb-item">Cats</li>
+                </ol>
+                <h3 class="text-center h2-custom">Meeting my Cat family and Cat friends!</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#chibi" role="tab" data-toggle="tab">Chibi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#naughty" role="tab" data-toggle="tab">Naughty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heart" role="tab" data-toggle="tab">Heart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ben" role="tab" data-toggle="tab">Ben</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#maumuri" role="tab" data-toggle="tab">Mau Chan & Muri</a>
+                    </li>
+                </ul>
+                
+
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" role="tabpanel" id="chibi">
+                        <div class="media">
+                            <img class="d-flex mr-3 img-thumbnail" src="imgs/chibi_thumbnail.jpg" alt="Chibi"/>
+                            <div class="media-body align-self-center">
+                                <h3>Chibi</h3>
+                                <p class="d-none d-sm-block">Chibi was a stray cat, Mr. & Mrs. Suzuki rescued Chibi and healed her wound.<br/>
+                                Later she has become my little sister and now she is living with my parents. <br/>
+                                In Japanese, "Chibi" meaning little kid.</p>
+                            </div>
+                        </div>
+                        <div id="chibiCarousel" class="carousel slide" data-ride="carousel" data-interval="">
+                            <div class="carousel-inner chibi-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block carousel-img" src="imgs/chibi_sample_resized2.jpeg" alt="Chibi Sample" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block carousel-img" src="imgs/chibi_sample_v2.jpeg" alt="Chibi Sample2" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block carousel-img" src="imgs/chibi_sample3.jpeg" alt="Chibi Sample3" />
+                                </div> 
+                                <div class="carousel-item">
+                                    <img class="d-block carousel-img" src="imgs/chibi_sample4.jpeg" alt="Chibi Sample4" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumbnail-config">
+                            <div class="gallery">
+                                <a role="button" class="btn btn-link btn-5pixel" id="cb_thumb1" data-target="#chibiCarousel" data-slide-to="0"><img src="imgs/chibi_sample_resized_thumbnail.jpeg" /></a>
+                                <a role="button" class="btn btn-link btn-5pixel" id="cb_thumb2" data-target="#chibiCarousel" data-slide-to="1"><img src="imgs/chibi_sample_v2_thumbnail.jpeg" /></a>
+                                <a role="button" class="btn btn-link btn-5pixel" id="cb_thumb3" data-target="#chibiCarousel" data-slide-to="2"><img src="imgs/chibi_sample3_thumbnail.jpeg" /></a>
+                                <a role="button" class="btn btn-link btn-5pixel" id="cb_thumb4" data-target="#chibiCarousel" data-slide-to="3"><img src="imgs/chibi_sample4_thumbnail.jpeg" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" role="tabpanel" id="naughty">
+                        <div class="media">
+                            <img class="d-flex mr-3 img-thumbnail" src="imgs/naughty_thumbnail.jpeg" alt="Naughty"/>
+                            <div class="media-body align-self-center">
+                                <h3>Naughty</h3>
+                                <p class="d-none d-sm-block">Naughty is a domestic shorthair cat. She came to our home with her sister: Heart.<br/>
+                                She follows us everywhere and curious to every new thing we bring to home. <br/>
+                                We call her as "Security of our home" </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" role="tabpanel" id="heart">
+                        <div class="media">
+                            <img class="d-flex mr-3 img-thumbnail" src="imgs/heart_thumbnail.jpeg" alt="Heart" />
+                            <div class="media-body align-self-center">
+                                <h3>Heart</h3>
+                                <p class="d-none d-sm-block">According to veterinarian, Heart is the elder sister of Naughty and Ben.<br/>
+                                Unlike Naughty, Heart doesnt stay close to us unless she wants something from us.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" role="tabpanel" id="ben">
+                        <div class="media">
+                            <img class="d-flex mr-3 img-thumbnail" src="imgs/ben_thumbnail.jpeg" alt="Ben" />
+                            <div class="media-body align-self-center">
+                                <h3>Ben</h3>
+                                <p class="d-none d-sm-block">Ben looks very like Heart, He was rescued by a cat-volunteer together with Naughty and Heart.
+                                Now Ben is living with that cat-volunteer. <br/>Previously he stayed at our home for a vocation with Heart and Naughty</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" role="tabpanel" id="maumuri">
+                        <div class="media">
+                            <img class="d-flex mr-3 img-thumbnail" src="..." alt="mauchan" />
+                            <div class="media-body align-self-center">
+                                <h3>Mau Chan and Muri</h3>
+                                <p class="d-none d-sm-block">Mau Chan are Muri my first cat friends. I first met them at my teacher's home<br/>
+                                After that, they always staying around us in the lesson, and I've learned how to be a friend of cat which I applied to Chibi.<br/>
+                                Sadly Mau Chan passed away on January 2022. Thank you and Rest In peace, Mau Chan.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

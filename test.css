@@ -1,0 +1,85 @@
+/* .breadcrumb li:first-child::before {
+    content: '';
+} */
+
+.btn-5pixel {
+    padding: 5px;
+}
+
+.breadcrumb li:first-child::after {
+    content: "";
+}
+
+.breadcrumb li:last-child::after {
+    content: "";
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.h2-custom {
+    margin: 2rem 0;
+    background-color: rgb(195, 195, 195);
+}
+
+.breadcrumb-item {
+    margin: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    padding-right: .5px;
+    content:"";
+} 
+.breadcrumb-item+.breadcrumb-item::after{
+    padding-left: 3px;
+    content:" > ";
+} 
+
+.nav-link:active{
+    background-color: orange !important;
+}
+
+.tab-content {
+    padding-top: 10px;
+}
+
+.carousel {
+    align-items: center;
+}
+
+.carousel-img {
+    width: 70%;
+    height: auto;
+}
+
+.carousel-thumbnail {
+    padding-top: 10px;
+    width: 10%;
+    height: auto;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.thumbnail-config {
+    margin-left: 50px;
+    height: 80px;
+    width: auto;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.gallery {
+    width: 1000px;
+    padding: 0px;
+}
+
+.chibi-inner {
+    background-color: rgb(224, 224, 224);
+}
+
+
+
+
