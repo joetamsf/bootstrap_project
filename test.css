@@ -72,7 +72,7 @@
 }
 
 .gallery {
-    width: 1000px;
+    width: 800px;
     padding: 0px;
 }
 
@@ -80,6 +80,26 @@
     background-color: rgb(224, 224, 224);
 }
 
+.divider {
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.yellow-col {
+    background-color: yellow;
+}
+
+.aqua-col {
+    background-color: aqua;
+}
+
+.green-col {
+    background-color: green;
+}
+
+p .footer_msg {
+    display: inline;
+}
 
 
 
