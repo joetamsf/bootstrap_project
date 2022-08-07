@@ -1,0 +1,79 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1" />
+    <title>What the Cats</title>
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="test.css" />
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">What the Cats!</h1>
+                <h3 class="display-5">In Cats we trust!</h3>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">Your location: </li>
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item">Beginners</li>
+                </ol>
+                <h3 class="text-center h2-custom">Tips for Beginners</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <p id="item_msg">Click below icons to know about basic items for cats!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-sm-3">
+                <a class="btn" data-toggle="collapse" href="#catlitter" role="button"><img src="imgs/frisco_cat_litter.jpeg" class="rounded border" /></a>
+            </div>
+            <div class="col col-sm-3">
+                <a class="btn" data-toggle="collapse" href="#catfood" role="button"><img src="imgs/orijin.jpg" class="rounded border" /></a>
+            </div>
+            <div class="collapse" id="catlitter">
+                <div class="card card-body">
+                    Using only cat litter is not enough to cover odor of cat feces and urine.
+                    It is suggested to use cat litter deodorizer together with cat litter to eliminate odor.
+                    Also, odors may make your cat to get another place for urination or excrement.
+                </div>
+            </div>
+            <div class="collapse" id="catfood">
+                <div class="card card-body">
+                    There are mainly 2 kind of cat foods we can buy for our cats, which are dry food and wet food.
+                    Some cats only eat dry food, while others eat both of them. It is suggested not to buy a lot of same cat food at first,
+                    try buy another flavors together, as some picky eater cats may unwilling to eat if it is not their loved flavor.
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="text-center">
+            <hr>
+            <p class="footer_msg">2022 jtsfprojects, developed by Joe Tam.</p>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
