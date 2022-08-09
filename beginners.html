@@ -37,15 +37,21 @@
         </div>
         <div class="row">
             <div class="col text-center">
-                <p id="item_msg">Click below icons to know about basic items for cats!</p>
+                <p id="p_beginnermsg">Click below icons to know about basic items for cats!</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col col-sm-3">
-                <a class="btn" data-toggle="collapse" href="#catlitter" role="button"><img src="imgs/frisco_cat_litter.jpeg" class="rounded border" /></a>
+        <div class="row custom-row" id="firstcollapse">
+            <div class="col-4 col-sm-4 col-md-3">
+                <a class="btn" data-toggle="collapse" href="#catlitter" role="button" ><img src="imgs/frisco_cat_litter.jpeg" class="rounded border" id="catlittercol"/></a>
             </div>
-            <div class="col col-sm-3">
-                <a class="btn" data-toggle="collapse" href="#catfood" role="button"><img src="imgs/orijin.jpg" class="rounded border" /></a>
+            <div class="col-4 col-sm-4 col-md-3">
+                <a class="btn" data-toggle="collapse" href="#catfood" role="button"><img src="imgs/orijin.jpg" class="rounded border" id="catfoodcol" /></a>
+            </div>
+            <div class="col-4 col-sm-4 col-md-3">
+                <a class="btn" data-toggle="collapse" href="#cattoys" role="button"><img src="imgs/cat_toys.jpeg" class="rounded border" id="cattoycol"></a>
+            </div>
+            <div class="col-4 col-sm-4 col-md-3">
+                <a class="btn" data-toggle="collapse" href="#love" role="button"><img src="imgs/smallheart.png" class="rounded border" id="yourlove"/></a>
             </div>
             <div class="collapse" id="catlitter">
                 <div class="card card-body">
@@ -61,7 +67,20 @@
                     try buy another flavors together, as some picky eater cats may unwilling to eat if it is not their loved flavor.
                 </div>
             </div>
-        </div>
+            <div class="collapse" id="cattoys">
+                <div class="card card-body">
+                    There are so many cat toys available in the marketplace. You may thinking of buy your cats some.
+                    But sometimes, a free straw provided by a restaurant or a ribbon on a gift box might also be an enjoyable toys for them.
+                </div>
+            </div>
+            <div class="collapse" id="love">
+                <div class="card card-body">
+                    Love is everything! By the time you bring them home, 
+                    they are your family, that means you need to take care of their everything, 
+                    this includes spending your time with them and accepting their unpleasant behaviours,
+                    such as urination on your sofa, etc.
+                </div>
+            </div>
         </div>
     </div>
 
@@ -74,6 +93,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/script_beginners.js"></script>
 </body>
 </html>

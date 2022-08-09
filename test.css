@@ -101,5 +101,9 @@ p .footer_msg {
     display: inline;
 }
 
+.custom-row {
+    display: flex;
+    justify-content: center;
+}
 
 
