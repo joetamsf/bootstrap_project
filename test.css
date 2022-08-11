@@ -106,4 +106,8 @@ p .footer_msg {
     justify-content: center;
 }
 
+a {
+    display: inline;
+}
+
 
